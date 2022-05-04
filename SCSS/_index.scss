@@ -1,0 +1,51 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.baloo {
+  font-family: 'Baloo Tamma 2', cursive;
+}
+.rounded-img{
+  border-radius:32px;
+}
+.darkgrey{
+    color:#636057;
+}
+.bg-hover-primary:hover{
+    background-color: #FF785E;
+    color:#fff;
+}
+.bg-hover-secondary:hover{
+    background-color: #FFDF65;
+    border-color: #FFDF65;
+    color:#858377;
+}
+.bg-hover-secondary:hover > i{
+    color: #FF785E;
+}
+.nav-link.active{
+    font-weight: bold;
+    border-bottom: 2px solid #FFDF65;
+}
+.sticky-top{
+  position:sticky;
+  top:0;
+  z-index:99;
+}
+.project:before,
+.project:after {
+  content: "";
+  position: absolute;
+  top: 80%;
+  background: #FFDF65;
+  width: calc(60% - 130px);
+  height:3px;
+}
+.project:before {
+  left: 0%; 
+}
+.project:after {
+  right: 0%;
+}
+$tooltip-color: #FFDF65 ;
+$tooltip-bg:  $darkgrey ;

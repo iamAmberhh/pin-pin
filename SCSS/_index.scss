@@ -1,5 +1,7 @@
 body {
   font-family: 'Noto Sans TC', sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .baloo {
@@ -54,9 +56,9 @@ body {
 }
 
 #mobilebtn{
-  width:100%;
   position: fixed;
   bottom: 0;
   right: 0;
+  left:0;
   display: none;
 }

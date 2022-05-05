@@ -68,7 +68,7 @@ $colors: (
 
 // scss-docs-start theme-color-variables
 $primary:       $blue !default;
-$secondary:     $gray !default;
+$secondary:     $gray-500 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -81,7 +81,7 @@ $dark:          $gray-900 !default;
 $theme-colors: (
   "primary":    #FFDF65,
   "secondary":  #494846,
-  "success":    $success,
+  "success":    #FFDF65,
   "info":       $info,
   "warning":    #FFDF65,
   "danger":     #FF785E,
@@ -817,7 +817,7 @@ $form-select-border-color:        rgb(255,223,101) !default;
 $form-select-border-radius:       $border-radius !default;
 $form-select-box-shadow:          $box-shadow-inset !default;
 
-$form-select-focus-border-color:  $input-focus-border-color !default;
+$form-select-focus-border-color:  #FFDF65; 
 $form-select-focus-width:         $input-focus-width !default;
 $form-select-focus-box-shadow:    0 0 0 $form-select-focus-width $input-btn-focus-color !default;
 
@@ -874,23 +874,23 @@ $form-floating-transition:        opacity .1s ease-in-out, transform .1s ease-in
 $form-feedback-margin-top:          $form-text-margin-top !default;
 $form-feedback-font-size:           $form-text-font-size !default;
 $form-feedback-font-style:          $form-text-font-style !default;
-$form-feedback-valid-color:         $success !default;
-$form-feedback-invalid-color:       $danger !default;
+$form-feedback-valid-color:         $primary;
+$form-feedback-invalid-color:       #FF785E;
 
-$form-feedback-icon-valid-color:    $form-feedback-valid-color !default;
+$form-feedback-icon-valid-color:    #FFDF65;
 $form-feedback-icon-valid:          url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'><path fill='#{$form-feedback-icon-valid-color}' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/></svg>") !default;
-$form-feedback-icon-invalid-color:  $form-feedback-invalid-color !default;
+$form-feedback-icon-invalid-color:  #FF785E;
 $form-feedback-icon-invalid:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='#{$form-feedback-icon-invalid-color}'><circle cx='6' cy='6' r='4.5'/><path stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/><circle cx='6' cy='8.2' r='.6' fill='#{$form-feedback-icon-invalid-color}' stroke='none'/></svg>") !default;
 // scss-docs-end form-feedback-variables
 
 // scss-docs-start form-validation-states
 $form-validation-states: (
   "valid": (
-    "color": $form-feedback-valid-color,
+    "color": #FFDF65,
     "icon": $form-feedback-icon-valid
   ),
   "invalid": (
-    "color": $form-feedback-invalid-color,
+    "color": #FF785E,
     "icon": $form-feedback-icon-invalid
   )
 ) !default;
@@ -1140,7 +1140,7 @@ $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w
 $tooltip-font-size:                 $font-size-sm !default;
 $tooltip-max-width:                 200px !default;
 $tooltip-color:                     #FFDF65 ;
-$tooltip-bg:                        $darkgrey ;
+$tooltip-bg:                        #636057 ;
 $tooltip-border-radius:             $border-radius !default;
 $tooltip-opacity:                   .9 !default;
 $tooltip-padding-y:                 $spacer / 4 !default;
@@ -1149,7 +1149,7 @@ $tooltip-margin:                    0 !default;
 
 $tooltip-arrow-width:               .8rem !default;
 $tooltip-arrow-height:              .4rem !default;
-$tooltip-arrow-color:               $darkgrey !default;
+$tooltip-arrow-color:               #636057;
 // scss-docs-end tooltip-variables
 
 // Form tooltips must come after regular tooltips

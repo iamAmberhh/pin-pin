@@ -32,6 +32,11 @@ body {
   top:0;
   z-index:99;
 }
+.icon-circle{
+  display: block;
+  width:30px;
+  height:30px;
+}
 .project:before,
 .project:after {
   content: "";
@@ -47,5 +52,11 @@ body {
 .project:after {
   right: 0%;
 }
-$tooltip-color: #FFDF65 ;
-$tooltip-bg:  $darkgrey ;
+
+#mobilebtn{
+  width:100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: none;
+}

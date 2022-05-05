@@ -35,7 +35,7 @@
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img
                             src="https://hexschool.github.io/boootstrap5WebLayout/assets/logo.jpg" alt="logo"
-                            width="111px"></a>
+                            class="logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -66,34 +66,37 @@
     </header>
     <!-- header end -->
     <!-- login modal -->
-    <div class="modal fade" id="loginmodal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content border-start-0 border-end-0 border-bottom-0 border-primary border-4">
-                <div class="modal-header">
-                    <p class="h5 modal-title text-grey" id="loginModalLabel">登入</p>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="mb-3">
-                        <label for="loginEmail" class="form-label text-grey">帳號</label>
-                        <input type="email" class="form-control bg-light border-0" id="loginEmail"
-                            aria-describedby="emailHelp">
+    <div class="container">
+        <div class="modal fade" id="loginmodal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content border-start-0 border-end-0 border-bottom-0 border-primary border-4">
+                    <div class="modal-header">
+                        <p class="h5 modal-title text-grey" id="loginModalLabel">登入</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="mb-3">
-                        <label for="loginPassword" class="form-label text-grey">密碼</label>
-                        <input type="password" class="form-control bg-light border-0 mb-2" id="loginPassword">
-                        <a href="#" class="text-decoration-none text-lightgrey">忘記密碼?</a>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label text-grey">帳號</label>
+                            <input type="email" class="form-control bg-light border-0" id="loginEmail"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label text-grey">密碼</label>
+                            <input type="password" class="form-control bg-light border-0 mb-2" id="loginPassword">
+                            <a href="#" class="text-decoration-none text-lightgrey">忘記密碼?</a>
+                        </div>
+                        <button type="button"
+                            class="btn btn-primary text-darkgrey rounded-pill w-100 mb-3 px-3 fs-5 fw-bold">登入</button>
                     </div>
-                    <button type="button"
-                        class="btn btn-primary text-darkgrey rounded-pill w-100 mb-3 px-3 fs-5 fw-bold">登入</button>
-                </div>
-                <div class="modal-footer d-flex justify-content-center border-0 mb-4">
-                    <a href="#" class="text-decoration-none text-lightgrey">還沒有註冊帳號？</a>
-                    <a href="#" class="text-decoration-none text-danger">註冊一個帳號</a>
+                    <div class="modal-footer d-flex justify-content-center border-0 mb-4">
+                        <a href="#" class="text-decoration-none text-lightgrey">還沒有註冊帳號？</a>
+                        <a href="#" class="text-decoration-none text-danger">註冊一個帳號</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    
     <!-- login modal end -->
     <!-- project area -->
     <div class="bg-light p-lg-5 py-5 px-2">

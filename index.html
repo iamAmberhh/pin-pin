@@ -35,7 +35,7 @@
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img
                             src="https://hexschool.github.io/boootstrap5WebLayout/assets/logo.jpg" alt="logo"
-                            class="logo"></a>
+                            width="111px" height="40px"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -106,7 +106,7 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/produt_image.jpg" alt="LivePhotos"
-                        class="img-fluid rounded-img">
+                        class="img-fluid rounded">
                 </div>
                 <div class="col-lg-5">
                     <span class="text-darkgrey">目標$600,000</span>
@@ -162,7 +162,7 @@
                     </div>
                     <div class="row mb-2">
                         <div class="col-12">
-                            <button class="btn btn-primary rounded-pill me-3 w-100 darkgrey fw-bold bg-hover-primary"
+                            <button class="btn btn-primary rounded-pill me-3 w-100 link-darkgrey fw-bold bg-hover-primary"
                                 type="button">贊助專案</button>
                         </div>
                     </div>
@@ -185,7 +185,7 @@
     </div>
     <!-- project area end -->
     <!-- nav & tabs -->
-    <nav class="border-bottom border-1 mb-5 sticky-top bg-white">
+    <nav class="border-bottom border-1 mb-5 bg-white position-sticky top-0 sticky-top">
         <div class="container">
             <ul class="nav d-flex justify-content-between justify-content-lg-start" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -479,7 +479,7 @@
                         </select>
                     </div>
                     <button type="submit"
-                        class="btn btn-primary rounded-pill px-5 text-center darkgrey fw-bold d-block mx-auto bg-hover-primary">贊助專案</button>
+                        class="btn btn-primary rounded-pill px-5 text-center link-darkgrey fw-bold d-block mx-auto bg-hover-primary">贊助專案</button>
                 </form>
             </div>
             <aside class="col-lg-4 mb-5">
@@ -523,7 +523,7 @@
                             <span class="badge bg-lightgrey px-3 mb-2">限量<span class="text-primary">200</span>個</span>
                             <p class="card-text text-lightgrey">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。</p>
                             <button type="button"
-                                class="btn btn-primary darkgrey fw-bold rounded-pill w-100 text-center d-block mx-auto bg-hover-primary">贊助此專案</button>
+                                class="btn btn-primary link-darkgrey fw-bold rounded-pill w-100 text-center d-block mx-auto bg-hover-primary">贊助此專案</button>
                         </div>
                     </li>
                     <li class="card mb-3">
@@ -557,7 +557,7 @@
                             <span class="badge bg-lightgrey px-3 mb-2">限量<span class="text-primary">200</span>個</span>
                             <p class="card-text text-lightgrey">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。</p>
                             <button type="button"
-                                class="btn btn-primary darkgrey fw-bold rounded-pill w-100 text-center d-block mx-auto bg-hover-primary">贊助此專案</button>
+                                class="btn btn-primary link-darkgrey fw-bold rounded-pill w-100 text-center d-block mx-auto bg-hover-primary">贊助此專案</button>
                         </div>
                     </li>
                 </ul>
@@ -568,7 +568,7 @@
     <!-- main area end -->
 
     <div class="container">
-        <button type="submit" class="btn btn-primary text-center darkgrey fw-bold bg-hover-primary d-md-none" id="mobilebtn">
+        <button type="submit" class="btn btn-primary text-center link-darkgrey fw-bold bg-hover-primary d-md-none mobilebtn">
             贊助專案
         </button>
     </div>
@@ -636,9 +636,9 @@
         // 贊助按鈕出現
         function showBtnCondition() {
             if ($(this).scrollTop() > 1200) {
-                $('#mobilebtn').fadeIn();
+                $('.mobilebtn').fadeIn();
             } else {
-                $('#mobilebtn').fadeOut();
+                $('.mobilebtn').fadeOut();
             }
         }
         $(window).scroll(showBtnCondition);

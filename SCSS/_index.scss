@@ -7,16 +7,6 @@ body {
 .baloo {
   font-family: 'Baloo Tamma 2', cursive;
 }
-.rounded-img{
-  border-radius:32px;
-}
-.logo{
-  width:111px;
-  height:40px;
-}
-.darkgrey{
-    color:#636057;
-}
 .bg-hover-primary:hover{
     background-color: #FF785E;
     color:#fff;
@@ -32,11 +22,6 @@ body {
 .nav-link.active{
     font-weight: bold;
     border-bottom: 2px solid #FFDF65;
-}
-.sticky-top{
-  position:sticky;
-  top:0;
-  z-index:99;
 }
 .icon-circle{
   display: block;
@@ -59,7 +44,7 @@ body {
   right: 0%;
 }
 
-#mobilebtn{
+.mobilebtn{
   position: fixed;
   bottom: 0;
   right: 0;

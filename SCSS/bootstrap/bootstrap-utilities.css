@@ -153,7 +153,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1020;
+  z-index: 2000;
 }
 
 @media (min-width: 576px) {
@@ -161,7 +161,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 
@@ -170,7 +170,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 
@@ -179,7 +179,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 
@@ -188,7 +188,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 
@@ -197,7 +197,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 

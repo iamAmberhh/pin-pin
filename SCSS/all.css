@@ -7452,7 +7452,7 @@ fieldset:disabled .btn {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1020;
+  z-index: 2000;
 }
 
 @media (min-width: 576px) {
@@ -7460,7 +7460,7 @@ fieldset:disabled .btn {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 
@@ -7469,7 +7469,7 @@ fieldset:disabled .btn {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 
@@ -7478,7 +7478,7 @@ fieldset:disabled .btn {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 
@@ -7487,7 +7487,7 @@ fieldset:disabled .btn {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 
@@ -7496,7 +7496,7 @@ fieldset:disabled .btn {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 
@@ -11847,19 +11847,6 @@ body {
   font-family: 'Baloo Tamma 2', cursive;
 }
 
-.rounded-img {
-  border-radius: 32px;
-}
-
-.logo {
-  width: 111px;
-  height: 40px;
-}
-
-.darkgrey {
-  color: #636057;
-}
-
 .bg-hover-primary:hover {
   background-color: #FF785E;
   color: #fff;
@@ -11878,13 +11865,6 @@ body {
 .nav-link.active {
   font-weight: bold;
   border-bottom: 2px solid #FFDF65;
-}
-
-.sticky-top {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 99;
 }
 
 .icon-circle {
@@ -11911,15 +11891,11 @@ body {
   right: 0%;
 }
 
-#mobilebtn {
+.mobilebtn {
   position: fixed;
   bottom: 0;
   right: 0;
   left: 0;
   display: none;
-}
-
-faq {
-  width: 300px;
 }
 /*# sourceMappingURL=all.css.map */

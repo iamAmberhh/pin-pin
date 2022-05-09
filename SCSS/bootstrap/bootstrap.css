@@ -7452,7 +7452,7 @@ fieldset:disabled .btn {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1020;
+  z-index: 2000;
 }
 
 @media (min-width: 576px) {
@@ -7460,7 +7460,7 @@ fieldset:disabled .btn {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 
@@ -7469,7 +7469,7 @@ fieldset:disabled .btn {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 
@@ -7478,7 +7478,7 @@ fieldset:disabled .btn {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 
@@ -7487,7 +7487,7 @@ fieldset:disabled .btn {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 
@@ -7496,7 +7496,7 @@ fieldset:disabled .btn {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020;
+    z-index: 2000;
   }
 }
 

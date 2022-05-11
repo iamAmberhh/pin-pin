@@ -11898,4 +11898,8 @@ body {
   left: 0;
   display: none;
 }
+
+.rounded-img {
+  border-radius: 32px;
+}
 /*# sourceMappingURL=all.css.map */
